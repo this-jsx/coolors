@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    font-family: 'Exo', sans-serif;
+    background: #ccc;
+}
+
+.col {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid salmon; */
+}
+
+.col h2 {
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.col h2:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.col button {
+    padding: 20px;
+    background: transparent;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+.col button:hover {
+    background: rgba(0, 0, 0, .08);
+}
+
+/* .fas {
+    transition: 1s;
+}
+
+.fa-unlock::before {
+    content:"\f3c1";
+} */
